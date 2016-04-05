@@ -228,12 +228,12 @@
                 <property name="tokenEndpointAuthMethod" value="SECRET_BASIC" />
                 <property name="redirectUris">
                     <set>
-                        <value>http://dev.local.io:8081/openid_connect_login</value>
+                        <value>http://client.local.io:8081/openid_connect_login</value>
                     </set>
                 </property>
                 <!-- for signed requests -->
                 <property name="requestObjectSigningAlg" value="RS256" />
-                <property name="jwksUri" value="http://dev.local.io:8081/jwk" />
+                <property name="jwksUri" value="http://client.local.io:8081/jwk" />
             </bean>
         </property>
         <!--
@@ -274,7 +274,7 @@
                         <property name="tokenEndpointAuthMethod" value="SECRET_BASIC" />
                         <property name="redirectUris">
                             <set>
-                                <value>http://dev.local.io:8081/openid_connect_login</value>
+                                <value>http://client.local.io:8081/openid_connect_login</value>
                             </set>
                         </property>
                     </bean>
@@ -306,7 +306,7 @@
                         <property name="tokenEndpointAuthMethod" value="SECRET_BASIC" />
                         <property name="redirectUris">
                             <set>
-                                <value>http://dev.local.io:8081/openid_connect_login</value>
+                                <value>http://client.local.io:8081/openid_connect_login</value>
                             </set>
                         </property>
 
@@ -329,7 +329,7 @@
                 <property name="tokenEndpointAuthMethod" value="SECRET_BASIC" />
                 <property name="redirectUris">
                     <set>
-                        <value>http://dev.local.io:8081/openid_connect_login</value>
+                        <value>http://client.local.io:8081/openid_connect_login</value>
                     </set>
                 </property>
             </bean>
