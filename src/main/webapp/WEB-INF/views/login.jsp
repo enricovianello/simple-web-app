@@ -43,7 +43,7 @@
 <script type="text/javascript">
 	$(document).ready(function () {
 		$('#localhost').on('click', function() {
-			$('#identifier').val('http://iam:8080/');
+			$('#identifier').val('http://iam.local.io:8080/');
 		});
 		$('#mitreidorg').on('click', function() {
 			$('#identifier').val('user@mitreid.org');
